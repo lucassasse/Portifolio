@@ -72,10 +72,6 @@
     font-weight: bold;
   }
 
-  main div#apresentacao div img:hover {
-    /*mudar img quando passa o mouse*/
-  }
-
   main div#tecnologias {
     width: 100vw;
     background-color: hsla(0, 0%, 0%, 0.5);
