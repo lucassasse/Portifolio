@@ -15,6 +15,7 @@
     width: 100%;
     background-color: hsla(0, 0%, 0%, 0.3);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.3);
+    /*position: fixed;*/ /* Quando rolar, escurecer o background-color */ 
   }
 
   header ul {
@@ -79,14 +80,22 @@
     width: 100%;
     background-color: hsla(0, 0%, 0%, 0.3);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   main div#tecnologias h3 {
     margin: 15px 30px;
+    max-width: 600px;
   }
 
-  main img {
-    margin: 15px 25px;
+  main div#tecnologias .icones{
+    max-width: 600px;
+  }
+
+  main div#tecnologias img {
+    margin: 20px 25px;
   }
 
   /* ----- PROJETOS ----- */
